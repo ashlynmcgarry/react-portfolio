@@ -1,0 +1,94 @@
+#root {
+  max-width: 100%vw;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  --white: #f7f7f7;
+  --green: #988F2A;
+  --purple: #6B2737;
+}
+
+body {
+  background-color: var(--white);
+}
+
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #ff6479aa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #fb61a4aa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: var(--green);
+} */
+
+.nav-pills .nav-link.active {
+  background-color: var(--green);
+}
+
+.nav-pills .nav-link {
+  color: black;
+}
+
+.footer {
+  padding-top: 15px;
+  background-color: var(--green);
+}
+
+h1 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  color: var(--purple);
+  font-size: 50px;
+  
+}
+
+p {
+  font-size: large;
+}
+
+.btn {
+  background-color: var(--white);
+  border-color: var(--purple);
+  border-width: 2px;
+  color: var(--purple);
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: var(--purple);
+  border-color: var(--purple);
+  color: var(--white);
+}
+
+.btn:focus, .btn:active {
+  background-color: var(--green);
+  border-color: var(--green);
+  color: var(--white);
+}
