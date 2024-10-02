@@ -7,6 +7,9 @@ function App() {
   return (
     <>
       <Nav />
+      <header>
+        <h1>Ashlyn McGarry</h1>
+      </header>
       <main className="mx-3">
         <Outlet />
       </main>
