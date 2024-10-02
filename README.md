@@ -28,7 +28,7 @@ To ustilise my portfolio you first need to clone the repository and open it in V
 
 ## Usage
 
-[Visit the live site here.](https://jate-text-editor-819z.onrender.com/)
+[Visit the live site here.](https://ashlynmcgarry-react-portfolio.netlify.app/)
 
 This portfolio can be used by entering `npm start` with VS Code's terminal and follow the prompts.
 
